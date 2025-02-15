@@ -838,3 +838,98 @@ body{
     margin-top: 5px;
     font-size: 14px;
 }
+
+/* Responsive for tablets (screen width between 768px and 1024px) */
+@media (max-width: 1024px) {
+    .first {
+      flex-direction: column;
+      height: auto;
+    }
+    .logo, .map, .right, .input {
+      flex: 1;
+      margin-bottom: 10px;
+    }
+    .input input {
+      width: 70%;
+    }
+    .product-comp {
+      flex-wrap: wrap;
+    }
+    .box {
+      width: 48%;
+      margin-bottom: 15px;
+    }
+  }
+  
+  /* Responsive for mobile devices (screen width up to 768px) */
+  @media (max-width: 768px) {
+    .first {
+      height: auto;
+      padding: 10px 0;
+    }
+    .logo img {
+      width: 80px;
+    }
+    .map i {
+      font-size: 14px;
+    }
+    .input {
+      flex-direction: column;
+      padding: 5px 0;
+    }
+    .input input {
+      width: 100%;
+    }
+    .product-comp {
+      flex-direction: column;
+      align-items: center;
+    }
+    .box {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .slider {
+      height: 300px;
+    }
+    .slide img {
+      width: 100%;
+      height: auto;
+    }
+    .sec-2 {
+      height: auto;
+    }
+  }
+  
+  /* Responsive for very small mobile devices (screen width up to 480px) */
+  @media (max-width: 480px) {
+    .first img {
+      width: 60px;
+    }
+    .map div span {
+      font-size: 10px;
+    }
+    .input .fa-search {
+      font-size: 20px;
+      padding: 5px;
+    }
+    .box h3 {
+      font-size: 16px;
+    }
+    .best button {
+      font-size: 12px;
+      height: 25px;
+    }
+    .detail {
+      height: auto;
+      padding: 20px;
+    }
+    .table {
+      flex-direction: column;
+      margin: 0;
+    }
+    .table div {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
